@@ -1,0 +1,101 @@
+let news = document.getElementById("news");
+let background = document.getElementById("background");
+let name_game = document.getElementById(" name_game");
+let span1 = document.getElementById("span1");
+let span1_transition = document.getElementById("span1_transition");
+let the_news_a_game = document.getElementById("the_news_a_game");
+let the_news_a_game_transition = document.getElementById("the_news_a_game_transition");
+let Read = document.getElementById("Read");
+let More = document.getElementById("More");
+let Less = document.getElementById("Less");
+let next = document.getElementById("next");
+let gamepad = document.getElementById("gamepad");
+let hh4 = document.getElementById("hh4");
+let news_blur = document.getElementById("news_blur");
+let shopping_notice = document.getElementById("shopping_notice");
+let add_games = document.getElementById("add_games");
+let read_more = document.getElementById("read_more");
+let small_left_dot_transition = document.getElementById("small_left_dot_transition")
+let normal_left_dot_transition = document.getElementById("normal_left_dot_transition")
+let big_dot_transition = document.getElementById("big_dot_transition")
+let normal_right_dot_transition = document.getElementById("normal_right_dot_transition")
+let small_right_dot_transition = document.getElementById("small_right_dot_transition")
+
+Read.addEventListener('click', function(){
+    'use strict';
+    news.classList.toggle('news_transition');
+    background.classList.toggle('background_transition');
+    span1.classList.toggle('span1_none');
+    span1_transition.classList.toggle('span1_transition_on');
+    the_news_a_game.classList.toggle('the_news_a_game_none');
+    the_news_a_game_transition.classList.toggle('the_news_a_game_transition_on');
+    Read.classList.toggle('Read_transition');
+    More.classList.toggle('More_none');
+    Less.classList.toggle('Less_on');
+    eews.classList.toggle('News_transition');
+    next.classList.toggle('next_transition');
+    gamepad.classList.toggle('gamepad_transition');
+    hh4.classList.toggle('name_game_transition');
+    news_blur.classList.toggle('news_blur_transition');
+});
+add_games.addEventListener('click', function() { shopping_notice.style.display = 'block';    document.getElementById("add_games").classList.toggle('Shopping_basket_animation');});
+read_more.addEventListener('click',function(){
+    'use strict';    
+    news.classList.toggle('news_blur_hardware');
+    document.getElementById("show_hardware").classList.toggle('show_hardware_transition');
+    read_more.classList.toggle('read_more_transition');
+    document.getElementById("read_less").classList.toggle('read_less_transition_on');
+    document.getElementById("next1").classList.toggle('next1_transition');
+    document.getElementById("name_hardware").classList.toggle('name_hardware_transition');
+    document.getElementById("w").classList.toggle('w_transition');
+    document.getElementById("c").classList.toggle('c_transition');
+    document.getElementById("description_hardware").classList.toggle('description_hardware_none');
+    document.getElementById("description_hardware_more").classList.toggle('description_hardware_more_transition');
+    document.getElementById("controller").classList.toggle('controller_transition');
+    document.getElementById("small_left_img").classList.toggle('small_left_img_tr');
+    document.getElementById("normal_left_img").classList.toggle('normal_left_img_tr');
+    document.getElementById("normal_right_img").classList.toggle('normal_right_img_tr');
+    document.getElementById("small_right_img").classList.toggle('small_right_img_tr');
+    document.getElementById("small_left_dot_transition").classList.toggle("small_left_dot_transition_on");
+    document.getElementById("small_left_dot_transition").classList.toggle("small_left_dot_transition_hover");
+    document.getElementById("normal_left_dot_transition").classList.toggle('normal_left_dot_transition_on');
+    document.getElementById("big_dot_transition").classList.toggle('big_dot_transition_on');
+    document.getElementById("normal_right_dot_transition").classList.toggle('normal_right_dot_transition_on');
+    document.getElementById("small_right_dot_transition").classList.toggle("small_right_dot_transition_on");
+    document.getElementById('news_blur').classList.toggle('news_blur_transition');});
+small_left_dot_transition.addEventListener('click', function(){     small_left_dot_transition.style.width='9px'; small_left_dot_transition.style.height ='9px';  small_left_dot_transition.style.top = '158px';      small_left_dot_transition.style.opacity = '1';
+normal_left_dot_transition.style.width = '7.2px';   normal_left_dot_transition.style.height = '7.2px';     normal_left_dot_transition.style.top = '160px';  normal_left_dot_transition.style.opacity = '.5';
+big_dot_transition.style.width = '7.2px';   big_dot_transition.style.height = '7.2px';   big_dot_transition.style.top = '160px';      big_dot_transition.style.opacity = '.5';
+normal_right_dot_transition.style.width = '7.2px';      normal_right_dot_transition.style.height = '7.2px';     normal_right_dot_transition.style.top = '160px';  normal_right_dot_transition.style.opacity = '.5';
+small_right_dot_transition.style.width = '7.2px';       small_right_dot_transition.style.height = '7.2px';      small_right_dot_transition.style.top = '160px';   small_right_dot_transition.style.opacity = '.5';
+document.getElementById("small_left_img").style.opacity ='1';   document.getElementById("controller").style.opacity = '0'; document.getElementById("normal_left_img").style.opacity = '0';  document.getElementById("normal_right_img").style.opacity = '0';  document.getElementById("small_right_img").style.opacity = '0';});
+normal_left_dot_transition.addEventListener('click', function(){     normal_left_dot_transition.style.width='9px'; normal_left_dot_transition.style.height ='9px';  normal_left_dot_transition.style.top = '158px';      normal_left_dot_transition.style.opacity = '1';
+small_left_dot_transition.style.width = '7.2px';   small_left_dot_transition.style.height = '7.2px';     small_left_dot_transition.style.top = '160px';  small_left_dot_transition.style.opacity = '.5';
+big_dot_transition.style.width = '7.2px';   big_dot_transition.style.height = '7.2px';   big_dot_transition.style.top = '160px';      big_dot_transition.style.opacity = '.5';
+normal_right_dot_transition.style.width = '7.2px';      normal_right_dot_transition.style.height = '7.2px';     normal_right_dot_transition.style.top = '160px';  normal_right_dot_transition.style.opacity = '.5';
+small_right_dot_transition.style.width = '7.2px';       small_right_dot_transition.style.height = '7.2px';      small_right_dot_transition.style.top = '160px';   small_right_dot_transition.style.opacity = '.5';
+document.getElementById("normal_left_img").style.opacity ='1';   document.getElementById("controller").style.opacity = '0'; document.getElementById("small_left_img").style.opacity = '0';  document.getElementById("normal_right_img").style.opacity = '0';  document.getElementById("small_right_img").style.opacity = '0';});
+big_dot_transition.addEventListener('click', function(){     big_dot_transition.style.width='9px'; big_dot_transition.style.height ='9px';  big_dot_transition.style.top = '158px';      big_dot_transition.style.opacity = '1';
+small_left_dot_transition.style.width = '7.2px';   small_left_dot_transition.style.height = '7.2px';     small_left_dot_transition.style.top = '160px';  small_left_dot_transition.style.opacity = '.5';
+normal_left_dot_transition.style.width = '7.2px';   normal_left_dot_transition.style.height = '7.2px';   normal_left_dot_transition.style.top = '160px';      normal_left_dot_transition.style.opacity = '.5';
+normal_right_dot_transition.style.width = '7.2px';      normal_right_dot_transition.style.height = '7.2px';     normal_right_dot_transition.style.top = '160px';  normal_right_dot_transition.style.opacity = '.5';
+small_right_dot_transition.style.width = '7.2px';       small_right_dot_transition.style.height = '7.2px';      small_right_dot_transition.style.top = '160px';   small_right_dot_transition.style.opacity = '.5';
+document.getElementById("controller").style.opacity ='1';   document.getElementById("normal_left_img").style.opacity = '0'; document.getElementById("small_left_img").style.opacity = '0';  document.getElementById("normal_right_img").style.opacity = '0';  document.getElementById("small_right_img").style.opacity = '0';});
+normal_right_dot_transition.addEventListener('click', function(){     normal_right_dot_transition.style.width='9px'; normal_right_dot_transition.style.height ='9px';  normal_right_dot_transition.style.top = '158px';      normal_right_dot_transition.style.opacity = '1';
+small_left_dot_transition.style.width = '7.2px';   small_left_dot_transition.style.height = '7.2px';     small_left_dot_transition.style.top = '160px';  small_left_dot_transition.style.opacity = '.5';
+normal_left_dot_transition.style.width = '7.2px';   normal_left_dot_transition.style.height = '7.2px';   normal_left_dot_transition.style.top = '160px';      normal_left_dot_transition.style.opacity = '.5';
+big_dot_transition.style.width = '7.2px';      big_dot_transition.style.height = '7.2px';     big_dot_transition.style.top = '160px';  big_dot_transition.style.opacity = '.5';
+small_right_dot_transition.style.width = '7.2px';       small_right_dot_transition.style.height = '7.2px';      small_right_dot_transition.style.top = '160px';   small_right_dot_transition.style.opacity = '.5';
+document.getElementById("normal_right_img").style.opacity ='1';   document.getElementById("normal_left_img").style.opacity = '0'; document.getElementById("small_left_img").style.opacity = '0';  document.getElementById("controller").style.opacity = '0';  document.getElementById("small_right_img").style.opacity = '0';});
+small_right_dot_transition.addEventListener('click', function(){     small_right_dot_transition.style.width='9px'; small_right_dot_transition.style.height ='9px';  small_right_dot_transition.style.top = '158px';      small_right_dot_transition.style.opacity = '1';
+small_left_dot_transition.style.width = '7.2px';   small_left_dot_transition.style.height = '7.2px';     small_left_dot_transition.style.top = '160px';  small_left_dot_transition.style.opacity = '.5';
+normal_left_dot_transition.style.width = '7.2px';   normal_left_dot_transition.style.height = '7.2px';   normal_left_dot_transition.style.top = '160px';      normal_left_dot_transition.style.opacity = '.5';
+big_dot_transition.style.width = '7.2px';      big_dot_transition.style.height = '7.2px';     big_dot_transition.style.top = '160px';  big_dot_transition.style.opacity = '.5';
+normal_right_dot_transition.style.width = '7.2px';       normal_right_dot_transition.style.height = '7.2px';      normal_right_dot_transition.style.top = '160px';   normal_right_dot_transition.style.opacity = '.5';
+document.getElementById("small_right_img").style.opacity ='1';   document.getElementById("normal_left_img").style.opacity = '0'; document.getElementById("small_left_img").style.opacity = '0';  document.getElementById("controller").style.opacity = '0';  document.getElementById("normal_right_img").style.opacity = '0';});
+
+document.getElementById("add_controller").addEventListener('click',function(){  shopping_notice.style.display = 'block';    document.getElementById("add_controller").classList.toggle('add_controller_animation');  document.getElementById("shopping_controller").classList.toggle('shopping_controller_animation');});
+read_more.addEventListener('click',function(){    document.getElementById("small_left_img").classList.toggle('small_left_img_transition');
+    document.getElementById("normal_left_img").classList.toggle('normal_left_img_transition');
+    document.getElementById("normal_right_img").classList.toggle('normal_right_img_transition');
+    document.getElementById("small_right_img").classList.toggle('small_right_img_transition');});
